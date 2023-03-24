@@ -9,20 +9,51 @@
 <body>
     
 <script>
+    //Variavel vazia
     let nome;
     console.log(nome);
     
+    //Variavel como null
     let disciplina = null
     console.log(disciplina);
     
+    //Variavel com informação
     let texto= " exemplo com valor "
     console.log(texto)
 
+    //Convertendo Float para Int
     let numFloat = 321.445
     console.log(parseInt(numFloat))
     
+    //Convertendo String para Float
     let numString = "321.445"
     console.log(parseFloat(numString))
+
+    //Verifica o tipo de variavel
+    let number = 333.445
+    let verificar = typeof number
+    console.log(verificar) 
+
+    //contagem de caracteres
+    let senha = "Minha senha é forte"
+    alert(senha.length)
+
+    //Retornando o inicio da posição do caracter
+    let texto1 = "O mundo de tecnologia"
+    console.log(texto1.indexOf("t"));
+
+    //Retornando o final da posição
+    let texto2 = "O mundo de tecnologia"
+    console.log(texto2.lastIndexOf("ia"))
+
+    //Passando informaçôes para tela
+    document.write("Informações para tela");
+    document.write("O mundo de tecnologia");
+    document.write("hardware e software");
+
+    //Passando informações para tela concatenando
+    let nome2 = "Pedro"
+    document.write("Meu nome é"+nome2);
 </script>
 </body>
 </html>
